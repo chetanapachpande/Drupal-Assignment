@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - site_info
+  theme:
+    - bartik
+id: siteinformation
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: siteinfo
+settings:
+  id: siteinfo
+  label: 'Site Information'
+  provider: site_info
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

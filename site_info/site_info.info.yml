@@ -1,0 +1,7 @@
+name: Site Information
+type: module
+description: 'Shows Site Location and Current Time based on selected Timezone'
+core: 8.x
+package: Custom
+dependencies:
+  - block

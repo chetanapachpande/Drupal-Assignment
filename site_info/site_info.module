@@ -1,0 +1,9 @@
+<?php
+
+function site_info_theme($existing, $type, $theme, $path) {
+  	return [
+	    'site_info' =>[
+	      'variables' => ['location' => NULL, 'datetime' => NULL],
+	    ],
+	];
+}

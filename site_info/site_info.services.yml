@@ -1,0 +1,3 @@
+services:
+  site_info.site_services:
+    class: Drupal\site_info\Service\SiteInfoService
